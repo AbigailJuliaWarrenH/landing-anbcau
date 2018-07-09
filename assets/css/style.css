@@ -12,7 +12,7 @@
 .header {
 	min-height: 150px;
 	background: green;
-	background-image: url("assets/images/sunflower.jpg")
+	background-image: url("assets/sunflower.jpg")
 }
 
 h1 {
@@ -28,6 +28,33 @@ h2 {
 	text-align: center;
 
 }
+
+li, ul{
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+p{
+	text-align: justify;
+	font-family: 'Fjalla One', sans-serif;	
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("assets/sunflower.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .main {
 	min-height: 700px;
 	background-color: yellow;
@@ -35,7 +62,12 @@ h2 {
 
 .footer{
 	height: 100px;
-	background-color: darkgreen;
+	background-color: pink;
+	font-family: 'Playfair Display', serif;
+	text-align: right;
+	font-color: brown;
+
+
 }
 
 .row:after {
@@ -45,21 +77,23 @@ h2 {
 	clear: both;
 }
 
-.grid > .clm {
+/*.grid > .clm {
 	height: 1060px;
 	width: 7.33%; /*100% / 12 minus 1% for each horizontal margin: */
-	margin-left: 0.5%;
-	margin-right: 0.5%;
+	/*margin-left: 100%;
+	margin-right: 100%;
 	background-color: #efefef;
-	opacity: 0.4;
-	padding-top: 530px; /*1060/2. This centers the column labels vertically.*/
-	text-align: center; 
-	float: left;
+	opacity: 1;
+	padding-top: 530px;*/*/ /*1060/2. This centers the column labels vertically.*/
+/*}*/
+body {
+    background-image: url("assets/css/sunflower.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
 }
-
 .grid {
 	position: relative;
-	top: -960px; /*whole height  of the content area*/
+	top: -960px; /*whole height  of the content area*/*/*/*/*/*/*/*/*/*/*/
 }
 
 
@@ -122,12 +156,16 @@ h2 {
 
 /*attribute selector []*/
 [class*="col"] {
-	border: 5px solid black;
+	/*border: 5px solid black;*/
 	float: left; /*lets columns stack horizontally*/
 	box-sizing: border-box; /*ensures actual width  does not exceed*/
 }
 
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 /*media queries
 
