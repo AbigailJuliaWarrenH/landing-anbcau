@@ -10,16 +10,37 @@
 }
 
 .header {
-	min-height: 150px;
-	background: green;
-	background-image: url("assets/sunflower.jpg")
+	/*min-height: 150px;*/
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+/*	background: green;
+*/	background: url("anbc1.jpeg") no-repeat;
+	/*background-repeat: none;*/
 }
+
+nav > ul > li{
+	display: inline-block;
+	margin-right: 20px;
+	/*background-color: pink;*/
+	padding: 10px;
+	width: 100px;
+	text-align:center;
+	font-size: 1.0em;
+	color: white;
+	background-color: black
+
+
+}
+
 
 h1 {
 	font-family: 'Yellowtail', cursive;
-	color: pink;
+	color: blue;
 	text-align: center;
 	padding-top: 50px;
+
+
 }
 
 h2 {
@@ -43,39 +64,63 @@ body, html {
     height: 100%;
 }
 
-.bg { 
+.design{
+    background: url(bamboo1.jpg) repeat;
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+/*.bg { */
     /* The image used */
-    background-image: url("assets/sunflower.jpg");
-
+    /*background-image: url("assets/sunflower2.jpg");
+*/
     /* Full height */
-    height: 100%; 
+    /*height: 100%; 
 
-    /* Center and scale the image nicely */
+     Center and scale the image nicely 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
 .main {
 	min-height: 700px;
 	background-color: yellow;
+	padding: 20px;
 }
 
 .footer{
-	height: 100px;
+	height: 120px;
 	background-color: pink;
 	font-family: 'Playfair Display', serif;
-	text-align: right;
+	text-align: center;
 	font-color: brown;
+	padding: 10px;
 
 
 }
 
+#anbc2 {
+	height: 75px;
+	width:  75px;
+}
+
+#footertext p {
+	text-align: center;
+}
+
+#sunflower2 {
+	height: 75px;
+	width:  75px;
+}
+	
 .row:after {
 	/*prevent container collapse*/
 	content:"";
 	display: block;
 	clear: both;
 }
+
 
 /*.grid > .clm {
 	height: 1060px;
@@ -86,10 +131,10 @@ body, html {
 	opacity: 1;
 	padding-top: 530px;*/*/ /*1060/2. This centers the column labels vertically.*/
 /*}*/
-body {
+/*body {
     background-image: url("assets/css/sunflower.jpg");
     background-repeat: no-repeat, repeat;
-    background-color: #cccccc;
+    background-color: #cccccc;*/
 }
 .grid {
 	position: relative;
